@@ -3,25 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <nav class="navbar">
+    <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
     </nav>
+    <main>
     <section id="Home">
-             <h1>Home</h1>
+        <div class="home-container">
+            <div class="home-tex">
+             <h1>Heyyy Guys</h1>
+             </div>
+        </div>
     </section>
-    <section id="About"><h1>About</h1></section>
-    <section id="Project"><h1>Project</h1></section>
-    <section id="Contact"><h1>Contact</h1></section>
+    <section id="About"><h1>About me</h1>
+        <p>Maame Bonsu here, a student of AAMUSTED and an upcoming creator</p>
+    </section>
+    <section id="Project"><h1>Building on a Portfolio Website</h1></section>
+    <section id="Contact">
+        <h1>CONTACT US</h1>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="text" placeholder="Address" required>
+            <textarea placeholder="Massage"rows="3" required></textarea>
+            <button type="sumbit">Submit</button>
+        </form>
+    </section>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
